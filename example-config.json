@@ -1,0 +1,8 @@
+{
+  "name": "Browser Core",
+  "version": "1.20.0",
+  "logo": "./example-assets/logo.png",
+  "options": {
+    "": ""
+  }
+}

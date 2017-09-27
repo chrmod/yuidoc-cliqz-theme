@@ -1,16 +1,40 @@
 /*
- * Custom styles for the YUIDoc Bootstrap Theme
- * Authors: kevinlacotaco
- *          tonybaroneee
+ * Custom styles for the YUIDoc Cliqz Theme
+ * Authors: chrmod
  */
 
-/* -- Navigation Bar -------------------------------------------------------- */
+/* -- Navipickgation Bar -------------------------------------------------------- */
+
+body {
+    padding-top: 84px;
+}
+
+.navbar .navbar-inner {
+    height: 44px;
+    background-color: #00AFF0;
+    background-image: none;
+    color: white;
+    border: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .navbar .navbar-inner .brand {
-    height: 40px;
+    height: 46px;
     margin: 0;
     padding: 0 5px 0 10px;
     cursor: default;
+    color: white;
+    text-shadow: none;
+    line-height: 46px;
+    font-size: 38px;
+}
+
+.navbar .navbar-inner .brand img {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  height: 100%;
 }
 
 .navbar-text {
@@ -21,6 +45,20 @@
 
 .navbar-form {
     margin-right: 3px;
+}
+
+.navbar-form .search-query {
+    background-color: #00AFF0;
+    border-color: white;
+    color: white;
+    font-size: 14px;
+    height: 32px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.navbar-form .search-query:focus {
+    border: 2px solid white;
 }
 
 #options-form {
